@@ -1,3 +1,7 @@
-<p>
-  home works!
-</p>
+<ul>
+  <li *ngFor="let algo of paises">
+    {{algo.name}} - {{algo.population | number}}
+
+  </li>
+
+</ul>
